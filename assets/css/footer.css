@@ -1,0 +1,80 @@
+footer {
+    background: rgba(0,0,0,0.94);
+    font-family: Roboto, sans-serif;
+}
+
+
+.p-info-negocio {
+    color: rgb(232,232,232);
+    font-size: 14px;
+}
+
+.sucursal-info {
+    margin: 35px 10px;
+    width: 33%;
+}
+
+.sucursal-info h4 {
+    padding: 10px 0px;
+    color: rgb(245,245,245);
+    font-size: 22px;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+}
+
+.sucursal-info p {
+    color: rgb(220,219,219);
+    font-size: 16px;
+    padding-top: 7px;
+    margin:0;
+}
+
+.sucursal-info iframe {
+    width: 100%;
+    height: 320px;
+    border: 0;
+}
+
+
+.pie {
+    margin: 0;
+    height: 40px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+.pie h5 {
+    padding-top: 3px;
+    color: rgb(228,228,228);
+    font-size: 15px;
+}
+
+.pie a {
+    margin: 0px 10px;
+}
+
+.pie i {
+    font-size: 28px;
+    color: rgb(198,198,198);
+}
+
+@media screen and (max-width: 768px){
+    .sucursales{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sucursal-info {
+        padding: 0px 80px;
+        width: 98%;
+    }
+    .contenedor-img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .sucursal-info {
+        padding: 0px 30px;
+        width: 98%;
+    }
+}
